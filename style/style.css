@@ -74,11 +74,12 @@
 
 .banner-2 {
     position: relative;
+    margin-bottom: 120px;
 }
 
 .banner-2 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 1320px;
+    max-height: 600px;
     margin-top: 60px;
     margin-left: 300px;
     border-radius: 16px;
@@ -90,6 +91,7 @@
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
+    max-width: 642px;
 }
 
 .banner-2 p {
@@ -97,6 +99,7 @@
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+    max-width: 697px;
 }
 
 .banner-2 h5 {
@@ -105,8 +108,176 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    max-width: 103px;
 }
 
-.banner-2 .banner-text{
-    float: left;
+.banner-3 {
+    position: relative;
+    margin-bottom: 120px;
+
+}
+
+.banner-3 img {
+    max-width: 1320px;
+    max-height: 600px;
+    margin-top: 60px;
+    margin-left: 300px;
+    border-radius: 16px;
+    background-color: rgb(236, 168, 141);
+}
+
+.banner-3 .banner-3-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    bottom: 35%;
+    color: #FFF;
+}
+
+.primary-color {
+    color: rgb(19, 175, 247);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.btn {
+    padding: 15px;
+}
+
+.primary-black {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-part-1 h6 {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 207px;
+}
+
+.container-part-1 h4 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    max-width: 328px;
+}
+
+.container-part-1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 393px;
+}
+
+
+.container-part-3 h4 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 126px;
+    max-height: 58px;
+}
+
+.container-part-3 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 276px;
+    max-height: 96px;
+}
+
+.container-part-3 img {
+    max-width: 140px;
+}
+
+.holiday-sale {
+    margin-top: 100px;
+}
+
+.holiday-sale h6 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday-sale .holiday-color {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale h2 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.holiday-sale p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    text-align: center;
+    margin: 0 300px;
+}
+
+.discount-container {
+    text-align: center;
+    margin-top: 30%;
+    position: relative;
+
+
+}
+
+.discount-container .boundary {
+    text-align: center;
+}
+
+.discount-container .gift {
+    position: absolute;
+    left: 16%;
+    bottom: 30%;
+}
+
+.discount-container .woman {
+    position: absolute;
+}
+
+.portfolio {
+    margin: 0 285px;
+    padding-top: 70px;
+}
+
+.portfolio h6 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
 }
