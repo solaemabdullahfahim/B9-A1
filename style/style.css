@@ -144,6 +144,8 @@
 
 .btn {
     padding: 15px;
+    background-color: red;
+    color: white;
 }
 
 .primary-black {
