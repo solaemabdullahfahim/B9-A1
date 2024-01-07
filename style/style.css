@@ -1,0 +1,112 @@
+* {
+
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* header content */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 300px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.banner-text {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: #FFF;
+
+}
+
+.banner-text h4 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner-text h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.off {
+    padding-top: 120px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.off-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.new-year-banner {
+    text-align: center;
+}
+
+.new-year-banner h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.new-year-banner img {
+    margin-top: 48px;
+}
+
+.banner-2 {
+    position: relative;
+}
+
+.banner-2 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 300px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.banner-2 h3 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.banner-2 p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-2 h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-2 .banner-text{
+    float: left;
+}
